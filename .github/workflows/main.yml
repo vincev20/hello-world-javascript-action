@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: vincev20/hello-world-javascript-action
+        uses: vincev20/hello-world-javascript-action@b4a1855097af4e15b786c63825fd495e8ce01c83
         with:
           who-to-greet: Vince the Octocat
 
